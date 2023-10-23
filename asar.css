@@ -7,39 +7,20 @@
     display: none;
 }
 
-/* Slidy Members */
-[class*="membersWrap-"] [class*="membersGroup-"] {
-    margin-right: auto;
-    width: 57px;
-    text-overflow: clip;
-    direction: rtl;
-    word-spacing: 1000px;
-}
-[class*="membersWrap-"]:hover [class*="membersGroup-"],
-[class*="membersWrap-"]:focus-within [class*="membersGroup-"] {
-    width: 100%;
-    margin: 0;
-    direction: ltr;
-    word-spacing: unset;
-    text-overflow: ellipsis;
-}
-.membersWrap-3NUR2t{
-  min-width: 0 !important; 
-}
-.members-3WRCEx {
-  transition: 250ms ease all;
-  width: 64px !important; 
-}
-.members-3WRCEx:hover {
-  width: 64px !important;
-}
-.membersWrap-3NUR2t:hover .members-3WRCEx{
-  width: 245px !important;
-}
-
 /* End blag code */
 
+/* Slidy Members ( I rewrote this completely ) */
 
+.container-2vWgD2 {
+    min-width: 0 !important;
+    width: 64px;
+    transition: 250ms ease all;
+}
+
+.container-2vWgD2:hover {
+  width: 245px !important;
+}
+	
 /*
  * Had to enable ctrl+shift+i to inspect the discord code
  * Ducko showed me how:
